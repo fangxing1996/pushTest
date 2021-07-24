@@ -27,5 +27,6 @@ int main(){
     cout << &p << ' ' << &q << endl;
     cout << *((int*)&p) << ' ' << *((int*)&q) << ' ' << *((int*)&r) << endl;
     cout << sizeof(int*) << endl << sizeof(char*) << endl;
+    cout << endl;
     return 0;
 }
